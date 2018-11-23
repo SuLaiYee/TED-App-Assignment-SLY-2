@@ -1,24 +1,24 @@
 package com.example.user.ted_app_assignment_sly_2.data.vo;
 
-import com.google.gson.annotations.SerializedName;
+//import com.google.gson.annotations.SerializedName;
 
 public class TedSearchVO {
-    @SerializedName("search_result_id")
+    //@SerializedName("search_result_id")
     private int searchId;
 
-    @SerializedName("title")
+    //@SerializedName("title")
     private String title;
 
-    @SerializedName("description")
+    //@SerializedName("description")
     private String description;
 
-    @SerializedName("imageUrl")
+   // @SerializedName("imageUrl")
     private String imageUrl;
 
-    @SerializedName("result_type")
+    //@SerializedName("result_type")
     private String resultType;
 
-    @SerializedName("result_id")
+    //@SerializedName("result_id")
     private int resultId;
 
     public int getSearchId() {

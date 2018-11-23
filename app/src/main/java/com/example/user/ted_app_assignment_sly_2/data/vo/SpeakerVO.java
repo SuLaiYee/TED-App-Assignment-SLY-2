@@ -1,12 +1,12 @@
 package com.example.user.ted_app_assignment_sly_2.data.vo;
 
-import com.google.gson.annotations.SerializedName;
+//import com.google.gson.annotations.SerializedName;
 
 public class SpeakerVO {
-    @SerializedName("speaker_id")
+    //@SerializedName("speaker_id")
     private int speakerId;
 
-    @SerializedName("name")
+    //@SerializedName("name")
     private String name;
 
     public int getSpeakerId() {

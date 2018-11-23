@@ -1,15 +1,15 @@
 package com.example.user.ted_app_assignment_sly_2.data.vo;
 
-import com.google.gson.annotations.SerializedName;
+//import com.google.gson.annotations.SerializedName;
 
 public class TagVO {
-    @SerializedName("tag_id")
+   // @SerializedName("tag_id")
     private int tagId;
 
-    @SerializedName("tag")
+   // @SerializedName("tag")
     private String tag;
 
-    @SerializedName("description")
+   // @SerializedName("description")
     private String description;
 
     public int getTagId() {

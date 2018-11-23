@@ -1,29 +1,29 @@
 package com.example.user.ted_app_assignment_sly_2.data.vo;
 
-import com.google.gson.annotations.SerializedName;
+//import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
 public class TedTalksVO {
-    @SerializedName("talk_id")
+    //@SerializedName("talk_id")
     private String talkId;
 
-    @SerializedName("title")
+    //@SerializedName("title")
     private String title;
 
-    @SerializedName("speaker")
+    //@SerializedName("speaker")
     private SpeakerVO speaker;
 
-    @SerializedName("imageUrl")
+    //@SerializedName("imageUrl")
     private String imageUrl;
 
-    @SerializedName("durationInSec")
+    //@SerializedName("durationInSec")
     private int durationInSecs;
 
-    @SerializedName("description")
+    //@SerializedName("description")
     private String description;
 
-    @SerializedName("tag")
+    //@SerializedName("tag")
     private List<TagVO> tags;
 
     public String getTitle() {

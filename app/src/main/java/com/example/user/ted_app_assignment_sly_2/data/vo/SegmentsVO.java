@@ -1,15 +1,15 @@
 package com.example.user.ted_app_assignment_sly_2.data.vo;
 
-import com.google.gson.annotations.SerializedName;
+//import com.google.gson.annotations.SerializedName;
 
 public class SegmentsVO {
-    @SerializedName("segment_id")
+   // @SerializedName("segment_id")
     private int segmentId;
 
-    @SerializedName("title")
+   // @SerializedName("title")
     private String segmentTitle;
 
-    @SerializedName("imageUrl")
+    //@SerializedName("imageUrl")
     private String imageUrl;
 
     public String getSegmentTitle() {

@@ -12,10 +12,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.example.user.ted_app_assignment_sly_2.Delegate.NewsDelegate;
+import com.example.user.ted_app_assignment_sly_2.data.model.TedTalksModel;
+import com.example.user.ted_app_assignment_sly_2.delegate.TalksDelegate;
 import com.example.user.ted_app_assignment_sly_2.R;
 import com.example.user.ted_app_assignment_sly_2.adapters.TalksAdapter;
-public class MainActivity extends AppCompatActivity implements NewsDelegate {
+public class MainActivity extends AppCompatActivity implements TalksDelegate {
 
 
     @Override
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements NewsDelegate {
         rvTalks.setAdapter(talksAdapter);
         rvTalks.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.VERTICAL, false));
 
+        TedTalksModel.getObjInstance().loadDataNews();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
